@@ -12,4 +12,9 @@ class Owner
     return @@all
   end
   
+  def self.count
+    return @@all.length
+  end
+    
+  
 end
